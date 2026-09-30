@@ -1,0 +1,220 @@
+/* Temas extras. Carregado depois dos outros estilos para sobrepor as variáveis base. */
+
+/* ---------------------------------------------------------------- Sépia */
+:root[data-palette='sepia'] {
+  --outer: #ebe3d0;
+  --bg: #f7f1e3;
+  --card-border: rgba(90, 70, 40, 0.1);
+  --border: #e0d5bd;
+  --text: #3b3024;
+  --text-muted: #6e5f4c;
+  --text-faint: #a39479;
+  --accent: #a0612b;
+  --accent-hover: #8a5223;
+  --accent-soft: rgba(160, 97, 43, 0.13);
+  --hover: rgba(90, 70, 40, 0.07);
+  --active: rgba(90, 70, 40, 0.12);
+  --popover: #fbf7ee;
+  --editor-bg: #f7f1e3;
+  --editor-active-line: rgba(160, 97, 43, 0.05);
+  --selection: rgba(160, 97, 43, 0.2);
+  --cm-heading: #3b3024;
+  --cm-link: #a0612b;
+  --md-bg: #f7f1e3;
+  --md-text: #3b3024;
+  --md-muted: #6e5f4c;
+  --md-border: #d9ccb0;
+  --md-border-soft: #e6dcc6;
+  --md-link: #a0612b;
+  --md-code-bg: rgba(120, 90, 50, 0.12);
+  --md-pre-bg: #efe6d2;
+  --md-quote: #6e5f4c;
+  --md-quote-border: #d4c3a0;
+  --md-table-head: #efe6d2;
+  --md-table-stripe: #f3ecdb;
+  --md-kbd-bg: #efe6d2;
+  --md-kbd-border: #d4c3a0;
+}
+
+/* ---------------------------------------------------------------- Solarizado */
+:root[data-palette='solarized'] {
+  --outer: #eee8d5;
+  --bg: #fdf6e3;
+  --card-border: rgba(88, 110, 117, 0.12);
+  --border: #e4dcc3;
+  --text: #073642;
+  --text-muted: #586e75;
+  --text-faint: #93a1a1;
+  --accent: #268bd2;
+  --accent-hover: #1f78b8;
+  --accent-soft: rgba(38, 139, 210, 0.12);
+  --hover: rgba(88, 110, 117, 0.08);
+  --active: rgba(88, 110, 117, 0.14);
+  --popover: #fffbee;
+  --editor-bg: #fdf6e3;
+  --editor-active-line: rgba(38, 139, 210, 0.05);
+  --selection: rgba(38, 139, 210, 0.2);
+  --cm-heading: #073642;
+  --cm-link: #268bd2;
+  --cm-code: #d33682;
+  --md-bg: #fdf6e3;
+  --md-text: #073642;
+  --md-muted: #586e75;
+  --md-border: #ddd5bb;
+  --md-border-soft: #e9e2cb;
+  --md-link: #268bd2;
+  --md-code-bg: rgba(147, 161, 161, 0.2);
+  --md-code-text: #b3246f;
+  --md-pre-bg: #f3ecd5;
+  --md-quote: #586e75;
+  --md-quote-border: #cfc6a8;
+  --md-table-head: #f3ecd5;
+  --md-table-stripe: #f8f1dc;
+  --md-kbd-bg: #f3ecd5;
+  --md-kbd-border: #cfc6a8;
+  --hl-keyword: #859900;
+  --hl-string: #2aa198;
+  --hl-number: #d33682;
+  --hl-function: #268bd2;
+  --hl-type: #b58900;
+  --hl-property: #268bd2;
+  --hl-tag: #268bd2;
+  --hl-attr: #b58900;
+  --hl-comment: #93a1a1;
+}
+
+/* ---------------------------------------------------------------- Nord */
+:root[data-palette='nord'] {
+  --outer: #262b35;
+  --bg: #2e3440;
+  --card-border: rgba(216, 222, 233, 0.07);
+  --border: #3b4252;
+  --text: #eceff4;
+  --text-muted: #c0c8d6;
+  --text-faint: #7d879a;
+  --accent: #88c0d0;
+  --accent-hover: #9fd0de;
+  --accent-soft: rgba(136, 192, 208, 0.16);
+  --accent-text: #1f2430;
+  --hover: rgba(216, 222, 233, 0.07);
+  --active: rgba(216, 222, 233, 0.12);
+  --popover: #353c4a;
+  --editor-bg: #2e3440;
+  --editor-active-line: rgba(216, 222, 233, 0.04);
+  --selection: rgba(136, 192, 208, 0.25);
+  --cm-heading: #eceff4;
+  --cm-link: #88c0d0;
+  --cm-code: #b48ead;
+  --md-bg: #2e3440;
+  --md-text: #e5e9f0;
+  --md-muted: #aeb7c7;
+  --md-border: #434c5e;
+  --md-border-soft: #3b4252;
+  --md-link: #88c0d0;
+  --md-code-bg: rgba(76, 86, 106, 0.55);
+  --md-pre-bg: #272c36;
+  --md-quote: #aeb7c7;
+  --md-quote-border: #4c566a;
+  --md-table-head: #3b4252;
+  --md-table-stripe: #323845;
+  --md-kbd-bg: #3b4252;
+  --md-kbd-border: #4c566a;
+  --hl-keyword: #81a1c1;
+  --hl-string: #a3be8c;
+  --hl-number: #b48ead;
+  --hl-function: #88c0d0;
+  --hl-type: #8fbcbb;
+  --hl-property: #d8dee9;
+  --hl-tag: #81a1c1;
+  --hl-attr: #8fbcbb;
+  --hl-comment: #616e88;
+}
+
+/* ---------------------------------------------------------------- Dracula */
+:root[data-palette='dracula'] {
+  --outer: #1e1f29;
+  --bg: #282a36;
+  --card-border: rgba(248, 248, 242, 0.06);
+  --border: #3a3c4e;
+  --text: #f8f8f2;
+  --text-muted: #c5c8d6;
+  --text-faint: #7b7f99;
+  --accent: #bd93f9;
+  --accent-hover: #caa6fb;
+  --accent-soft: rgba(189, 147, 249, 0.16);
+  --accent-text: #1e1f29;
+  --hover: rgba(248, 248, 242, 0.06);
+  --active: rgba(248, 248, 242, 0.11);
+  --popover: #303241;
+  --editor-bg: #282a36;
+  --editor-active-line: rgba(248, 248, 242, 0.035);
+  --selection: rgba(189, 147, 249, 0.28);
+  --cm-heading: #bd93f9;
+  --cm-link: #8be9fd;
+  --cm-code: #50fa7b;
+  --cm-quote: #c5c8d6;
+  --md-bg: #282a36;
+  --md-text: #f8f8f2;
+  --md-muted: #b6b9cc;
+  --md-border: #44475a;
+  --md-border-soft: #383a4a;
+  --md-link: #8be9fd;
+  --md-code-bg: rgba(68, 71, 90, 0.7);
+  --md-code-text: #50fa7b;
+  --md-pre-bg: #21222c;
+  --md-quote: #b6b9cc;
+  --md-quote-border: #6272a4;
+  --md-table-head: #343746;
+  --md-table-stripe: #2c2e3c;
+  --md-mark-bg: #6d5d1a;
+  --md-kbd-bg: #343746;
+  --md-kbd-border: #44475a;
+  --hl-keyword: #ff79c6;
+  --hl-string: #f1fa8c;
+  --hl-number: #bd93f9;
+  --hl-function: #50fa7b;
+  --hl-type: #8be9fd;
+  --hl-property: #66d9ef;
+  --hl-tag: #ff79c6;
+  --hl-attr: #50fa7b;
+  --hl-comment: #6272a4;
+}
+
+/* ---------------------------------------------------------------- Grafite */
+:root[data-palette='graphite'] {
+  --outer: #111112;
+  --bg: #1c1c1e;
+  --card-border: rgba(255, 255, 255, 0.06);
+  --border: #2c2c2e;
+  --text: #ececec;
+  --text-muted: #a8a8ad;
+  --text-faint: #6c6c72;
+  --accent: #e0e0e0;
+  --accent-hover: #ffffff;
+  --accent-soft: rgba(255, 255, 255, 0.1);
+  --accent-text: #111112;
+  --hover: rgba(255, 255, 255, 0.06);
+  --active: rgba(255, 255, 255, 0.1);
+  --popover: #242426;
+  --editor-bg: #1c1c1e;
+  --selection: rgba(255, 255, 255, 0.18);
+  --cm-heading: #ffffff;
+  --cm-link: #d0d0d0;
+  --md-bg: #1c1c1e;
+  --md-text: #e5e5e7;
+  --md-muted: #9d9da3;
+  --md-border: #38383b;
+  --md-border-soft: #2c2c2e;
+  --md-link: #ffffff;
+  --md-code-bg: rgba(255, 255, 255, 0.09);
+  --md-pre-bg: #161617;
+  --md-quote: #a8a8ad;
+  --md-quote-border: #444447;
+  --md-table-head: #242426;
+  --md-table-stripe: #202022;
+}
+:root[data-palette='graphite'] .markdown-body a {
+  text-decoration: underline;
+  text-decoration-color: var(--md-border);
+  text-underline-offset: 3px;
+}

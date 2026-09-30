@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MDEditor</title>
+    <script src="/theme-init.js"></script>
+  </head>
+  <body class="no-doc" data-mode="none">
+    <div id="app">
+      <aside id="sidebar">
+        <nav class="side-nav" aria-label="Navegação"></nav>
+        <div class="side-section">
+          <div class="sidebar-tabs"></div>
+          <nav id="outline" class="sidebar-panel" aria-label="Sumário"></nav>
+          <div id="files" class="sidebar-panel" hidden></div>
+        </div>
+        <div class="side-footer"></div>
+      </aside>
+      <div id="sidebar-resizer" class="resizer" aria-hidden="true"></div>
+      <div id="main">
+        <header id="topbar">
+          <button id="btn-sidebar" class="icon-btn" type="button"></button>
+          <button id="btn-back" class="icon-btn" type="button" title="Voltar ao documento anterior (Alt+←)" hidden></button>
+          <div id="crumbs">
+            <button id="crumb-dir" class="crumb" type="button" hidden></button>
+            <span id="crumb-sep" class="crumb-sep" hidden>/</span>
+            <span id="doc-name">MDEditor</span>
+            <span id="doc-dirty" title="Alterações não salvas">●</span>
+          </div>
+          <div class="top-spacer"></div>
+          <span id="st-pos" class="top-meta" hidden></span>
+          <span id="st-words" class="top-meta" hidden></span>
+          <div id="mode-switch" role="tablist" aria-label="Modo de exibição"></div>
+          <button id="btn-find" class="icon-btn" type="button"></button>
+          <button id="btn-more" class="icon-btn" type="button"></button>
+        </header>
+        <div id="banner" hidden></div>
+        <main id="workspace">
+          <section id="editor-pane">
+            <div id="editor"></div>
+            <div id="toolbar" role="toolbar" aria-label="Formatação"></div>
+          </section>
+          <div id="split-resizer" class="resizer" title="Arraste para redimensionar (duplo clique: 50/50)" aria-hidden="true"></div>
+          <section id="preview-pane" tabindex="-1"><article id="preview" class="markdown-body"></article></section>
+          <section id="welcome"></section>
+          <div id="findbar" hidden></div>
+        </main>
+      </div>
+    </div>
+    <div id="drop-overlay"><div class="drop-box"><span>Solte o arquivo aqui</span></div></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
